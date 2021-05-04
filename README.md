@@ -3,7 +3,7 @@ This is an easy to use Docker Image for youtube-dl
 
 ## Build
 ```
-    docker build -t youtubedl /
+    docker build -t youtubedl .
 ```
 
 ## Run
