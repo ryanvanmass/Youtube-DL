@@ -15,6 +15,6 @@ RUN pip3 install youtube-dl \
     && rm -rf /root/.cache/pip/*
 
 COPY --chown=youtube:youtube youtube.sh /home/youtube/
-USER youtube
+USER root
 
-ENTRYPOINT [ "sh", "youtube.sh" ]
+ENTRYPOINT [ "sh", "/home/youtube/youtube.sh" ]
