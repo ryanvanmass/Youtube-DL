@@ -1,7 +1,7 @@
 version: '3'
 services:
   youtube:
-    image: ryanvanmass/youtube-dl:v1
+    image: ryanvanmass/youtube-dl:v2
     container_name: youtube-dl
     volumes:
       - /media:/home/youtube/output:rw
