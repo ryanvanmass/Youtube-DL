@@ -1,9 +1,3 @@
-FROM python:3.9.2-alpine3.13 as build
-WORKDIR /wheels
-RUN apk add --no-cache \
-    ncurses-dev \
-    build-base
-
 FROM python:3.9.2-alpine3.13
 WORKDIR /home/youtube
 RUN adduser -D youtube
