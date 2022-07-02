@@ -5,4 +5,6 @@ services:
     container_name: youtube-dl
     volumes:
       - /media:/home/youtube/output:rw
+    
+    # Enter Youtube URL here
     command: 
